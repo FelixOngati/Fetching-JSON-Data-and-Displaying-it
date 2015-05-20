@@ -11,8 +11,6 @@
 <script>
 
 $(function() {
-
-
 var dmJSON = "http://test.hiskenya.org/api/dataSets.jsonp?callback=?";
    $.getJSON( dmJSON, function(data) {
    $.each(data.dataSets, function(s, g) {
